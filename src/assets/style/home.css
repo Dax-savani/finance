@@ -1,0 +1,127 @@
+.sliderImg {
+  max-height: 370px;
+}
+.sliderImg img {
+  border-radius: 8px;
+}
+/* *****service we provide******** */
+.serviceIcon {
+  width: 62px;
+  height: 50px;
+}
+.serviceProvide {
+  box-shadow: 3px 0 40px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.serviceProvide .owl-theme .owl-nav {
+  color: #9f9f9f;
+}
+.serviceProvide .owl-theme .owl-nav .owl-prev {
+  font-size: 32px;
+  position: absolute;
+  left: -40px;
+  top: 14px;
+}
+.serviceProvide .owl-theme .owl-nav .owl-next {
+  font-size: 32px;
+  position: absolute;
+  right: -40px;
+  top: 14px;
+}
+.serviceProvide .owl-theme .owl-nav [class*="owl-"] {
+  background-color: unset;
+  color: unset;
+}
+/* ******why choose us ****** */
+
+.whyChooseUsImg {
+  max-width: 134px;
+  max-height: 130px;
+}
+.whyChooseUs {
+  background: url("../images/home/whychooseUs/backWhyChoose.png");
+}
+/* ****schemes**** */
+.schemesMain {
+  background: url("../images/home/schemes/background.png");
+}
+.schemes {
+  font-size: 14px;
+}
+.schemesMain .schemesBox {
+  border: 2px solid #d7d7d7;
+  transition: 0.4s;
+}
+.schemesMain .schemesBox:hover {
+  border: 2px solid #d71920;
+}
+.schemesMain .schemesBox .schemeBoxTitle {
+  transition: 0.4s;
+}
+.schemesMain .schemesBox:hover .schemeBoxTitle {
+  color: #d71920;
+}
+.schemesMain .schemesBox .learnMore {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.4s;
+}
+.schemesMain .schemesBox .learnMore:hover {
+  text-decoration: underline;
+}
+/* ****scrollbar**** */
+.schemesMain ::-webkit-scrollbar {
+  width: 6px;
+}
+.schemesMain .schemeRightSide::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a9d;
+  border-radius: 20px;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.schemeRightSide:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+/* *****media news***** */
+.newsBoxImg img {
+  filter: grayscale(100%);
+  overflow: hidden;
+  transition: 0.4s;
+}
+.description {
+  color: white;
+  bottom: -55px;
+  transition: 0.4s;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.85) 40%,
+    rgba(0, 0, 0, 0.85) 60%
+  );
+}
+.newsBox:hover .description {
+  bottom: 0px;
+}
+.newsBox:hover .newsBoxImg img {
+  filter: unset;
+}
+/* *****csr*** */
+.csr .slick-prev:before,
+.csr .slick-next:before {
+  display: none;
+}
+.csr .slick-prev {
+  left: 15%;
+  top: unset;
+  bottom: -55px;
+}
+.csr .slick-next {
+  left: 80%;
+  top: unset;
+  bottom: -55px;
+}
+@media only screen and (max-width: 1200px) {
+  .csrBox {
+    height: 100% !important;
+  }
+}
