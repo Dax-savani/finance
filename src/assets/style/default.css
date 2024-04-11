@@ -1,4 +1,82 @@
+/* ********* FONT SIZE ********************/
 
 
 
+.fs-12{
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-23 {
+  font-size: 23px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-33 {
+  font-size: 33px;
+}
+.fs-43 {
+  font-size: 43px;
+}
 
+
+
+ /* ===========color=========== */
+
+
+
+.black {
+  color: #121212;
+}
+.lightBlack {
+  color: #1C0102;
+}
+.red {
+  color: #D71920;
+}
+.text-red{
+    color: #FF0000;
+}
+
+.white {
+  color: #fff;
+}
+.lightGray {
+  color: #525252;
+}
+.gray {
+  color: #666666;
+}
+
+
+.outline-none{
+  outline: none !important;
+}
+
+.otpGenerateBtn{
+    padding: 8px 16px;
+    background: -webkit-linear-gradient(top, #DF3127 0, #BA2218 100%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    border: 2px solid #DF3127;
+    transition: 0.3s;
+}
+.otpGenerateBtn:hover{
+    background: white;
+    color: #DF3127;
+}

@@ -16,6 +16,7 @@ li{
 
 a{
   text-decoration: none;
+  padding: 0 !important;
 }
 
 img{
@@ -33,3 +34,16 @@ p{
   margin: 0;
   padding: 0;
 }
+
+:root{
+  --red :#D71920
+}
+
+
+
+
+
+
+
+
+

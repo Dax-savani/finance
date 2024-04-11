@@ -1,0 +1,116 @@
+/* ************ SERVICES *********** */
+
+.header-data{
+  font-weight: 700;
+  padding: 0 10px;
+  color: black;
+  border-right: 2px solid black;
+  cursor: pointer;
+}
+#servicesCard .card ::before{
+      content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #d71921;
+    width: 100%;
+    height: 2px;
+}
+.bg-table {
+  --bs-bg-opacity: 1;
+  background-color:#D71921 !important;
+}
+.download{
+        /* background: linear-gradient(to bottom, #df3127 0%, #ba2218 100%);
+        outline: 3px solid white;
+        border: 30px;
+        */
+        color: white;
+         border-radius: 30px;
+    /* border: 1px solid #9c0e06; */
+    background: #df3127;
+    background: -moz-linear-gradient(top, #df3127 0%, #ba2218 100%);
+    background: -webkit-linear-gradient(top, #df3127 0%, #ba2218 100%);
+    background: linear-gradient(to bottom, #df3127 0%, #ba2218 100%);
+        -webkit-transition: all .25s ease-in 0s;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3127',endColorstr='#ba2218',GradientType=0);
+
+}
+.download:hover{
+    background: white !important;
+    outline: 3px solid #df3127;
+    font-weight: bold !important;
+    color:  #df3127
+}
+
+.nav-pills li,.tab{
+        box-shadow: 0 0 16px rgba(0,0,0,.1);
+    }
+    
+    .nav-pills .nav-link.active{
+        width: 100%;
+    border-bottom: 2px solid #D71921;
+    color: #D71921 !important;
+    background-color: transparent;
+    border-radius: unset;
+}
+
+
+/* ************** slider  ********************/
+
+.serviceProvide {
+  box-shadow: 3px 0 40px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.serviceProvide .owl-theme .owl-nav {
+  color: #9F9F9F;
+}
+.serviceProvide .owl-theme .owl-nav .owl-prev {
+  font-size: 32px;
+  position: absolute;
+  padding: 10px;
+  left: -40px;
+  top: 14px;
+}
+.serviceProvide .owl-theme .owl-nav .owl-next {
+  font-size: 32px;
+  padding: 10px;
+  position: absolute;
+  right: -40px;
+  top: 14px;
+}
+.serviceProvide .owl-theme .owl-nav [class*="owl-"] {
+  background-color: unset;
+  color: unset;
+}
+/* .owl-theme .owl-nav [class*="owl-"] {
+  background-color: unset !important;
+  color: unset !important;
+} */
+
+
+
+/* ******* services grid ********** */
+.newsBoxImg img {
+  filter: grayscale(100%);
+  overflow: hidden;
+  transition: 0.4s;
+}
+.description {
+  color: white;
+  left: 0;
+  bottom: -55px;
+  transition: 0.4s;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.85) 40%,
+    rgba(0, 0, 0, 0.85) 60%
+  );
+}
+.newsBox:hover .description {
+  bottom: 0px;
+}
+.newsBox:hover .newsBoxImg img {
+  filter: unset;
+}
