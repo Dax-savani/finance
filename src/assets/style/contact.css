@@ -1,0 +1,161 @@
+/* =============herosection================ */
+.word:hover {
+  color: #d71920;
+  transition: 0.2s;
+}
+.heroimage {
+  height: 450px;
+  width: 100%;
+  background-image: url("../images/Contact/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.background {
+  background-color: #d71920;
+  padding: 5px;
+}
+.fixBox {
+  width: 192px;
+  height: 28px;
+}
+.imagedetails {
+  padding: 155px 0px;
+}
+@media screen and (max-width: 768px) {
+  .heroimage {
+    background-position: right;
+  }
+}
+/* ===============GeneralQueries================ */
+.backgroundColorBox {
+  padding: 35px;
+  background-image: url("../images/Contact/gray-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainquestion {
+  box-shadow: rgba(0, 0, 0, 0.08) 3px 0px 16px;
+  border-radius: 10px;
+}
+.Imagesize {
+  width: 84px;
+  height: 75px;
+}
+@media screen and (max-width: 576px) {
+  .generalA {
+    font-size: 13px !important;
+  }
+  .generalP {
+    font-size: 10px !important;
+  }
+}
+/* ================formSection=================== */
+.inputbox {
+  border: none;
+  border-bottom: 1px solid silver;
+  height: 40px;
+  padding: 0;
+  outline: none;
+}
+.message {
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 576px) {
+  .labeldata {
+    font-size: 10px;
+  }
+}
+.button {
+  width: 168px;
+  height: 42px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #d71920;
+}
+.button:hover {
+  color: #d71920;
+  background-color: #fff;
+  border: 2px solid #d71920;
+}
+/* ===============contactus=============== */
+.contactUsBoxPadding {
+  background-color: #f3f3f3;
+  padding: 5px 35px 10px;
+}
+.socialBox > a > span > i {
+  font-size: 35px;
+}
+.socialBox {
+  width: 64px;
+  height: 64px;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li {
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li:nth-child(1) {
+  background-color: #3b5998;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li:nth-child(2) {
+  background-color: #26a6d1;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li:nth-child(3) {
+  background-color: #c4302b;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li:nth-child(4) {
+  background-color: #0e76a8;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li:nth-child(5) {
+  background-color: #bbd376;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li:nth-child(6) {
+  background-color: #df3a5c;
+}
+.contactUsBoxPadding > ul > li:last-child > ul > li:nth-child(7) {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+@media screen and (max-width: 768px) {
+  .socialBox {
+    width: 40px;
+    height: 40px;
+  }
+  .socialBox > a > span > i {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .socialBox {
+    width: 20px;
+    height: 20px;
+  }
+  .socialBox > a > span > i {
+    font-size: 12px;
+  }
+}
+/* =========================LOACTION================ */
+.LocationBackgroundImage {
+  background-image: url("../images/Contact/loaction.png");
+}
+.head {
+  background-color: #d71921;
+  padding: 25px 30px;
+}
+.loactiondetails {
+  padding: 30px;
+}
