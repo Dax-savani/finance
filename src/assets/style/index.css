@@ -30,11 +30,18 @@ img {
   object-fit: cover;
 }
 
-/* ul{
+ul {
   margin: 0;
   padding: 0;
 }
-p{
+p {
   margin: 0;
   padding: 0;
-} */
+}
+.accordionhead {
+  padding: 20px 40px 20px 0px;
+}
+.accordionBox {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+  border: 1px solid #dadada;
+}

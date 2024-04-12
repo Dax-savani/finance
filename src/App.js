@@ -4,6 +4,8 @@ import About from "./pages/About";
 import {Services} from "./pages/services/Services";
 import {Header} from "./components/global/Header";
 import {Footer} from "./components/global/Footer";
+import Contact from "./pages/Contact/Contact";
+import Faqs from "./components/Faqs";
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
             <About/>
             <Services/>
             <Footer/>
+            <Contact/>
+            {/* <Faqs /> */}
         </>
     );
 }
