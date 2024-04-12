@@ -1,0 +1,79 @@
+/* .word:hover {
+  color: #d71920;
+  transition: 0.2s;
+}
+.mainHero {
+  width: 100%;
+}
+.heroimage {
+  height: 450px;
+  width: 100%;
+  background-image: url("../images/about/heroAbout.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.background {
+  background-color: #d71920;
+  padding: 5px;
+}
+.fixBox {
+  width: 192px;
+  height: 28px;
+}
+.imagedetails {
+  padding: 155px 0px;
+}
+@media screen and (max-width: 768px) {
+  .heroimage {
+    background-position: right;
+  }
+} */
+
+@media only screen and (max-width: 992px) {
+  .reviewText {
+    font-size: 14px !important;
+  }
+  .mission > h3 {
+    font-size: 20px !important;
+  }
+  .mission > p {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .awardTextSection {
+    left: 30% !important;
+  }
+  .awardTextSection p:nth-of-type(1) {
+    padding-left: 30px !important;
+  }
+  .awardTextSection p:nth-of-type(2) {
+    padding-left: 40px !important;
+  }
+  .awardTextSection p:nth-of-type(3) {
+    padding-left: 50px !important;
+  }
+  .awardTextSection p:nth-of-type(4) {
+    padding-left: 60px !important;
+  }
+  .awardMain {
+    position: relative !important;
+  }
+  .awardMain > div {
+    position: absolute !important;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 992px) {
+  .ownReview {
+    height: 200px !important;
+    width: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ownReview {
+    margin: 0 auto;
+  }
+}

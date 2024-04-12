@@ -1,4 +1,116 @@
+/* ===============font-size================  */
 
+.fs-14 {
+  font-size: 14px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-23 {
+  font-size: 23px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-33 {
+  font-size: 33px;
+}
+.fs-43 {
+  font-size: 43px;
+}
 
+/* ===========color===========  */
 
+.black {
+  color: #121212;
+}
+.lightBlack {
+  color: #1c0102;
+}
+.red {
+  color: #d71920;
+}
+.white {
+  color: #fff;
+}
 
+/* ==============subscribe component========== */
+
+.subscribe {
+  width: 600px;
+  background-color: red;
+  color: pink;
+  display: flex;
+  border: 1px solid #d71920;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+  .subscribe {
+    width: 100%;
+  }
+}
+
+.subscribeInput {
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+}
+
+.subscribeInput:focus {
+  border: none;
+  outline: none;
+}
+
+.subscribeBtn {
+  border-radius: none;
+  background-color: #d71920;
+  color: #fff;
+}
+
+.subscribeBtn:hover {
+  color: #fff;
+}
+
+.subscribeBtn:active {
+  border: none;
+  outline: none;
+}
+
+/* =========global hero========= */
+
+.word:hover {
+  color: #d71920;
+  transition: 0.2s;
+}
+.mainHero {
+  width: 100%;
+}
+.heroimage {
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.background {
+  background-color: #d71920;
+  padding: 5px;
+}
+.fixBox {
+  width: 192px;
+  height: 28px;
+}
+.imagedetails {
+  padding: 155px 0px;
+}
+@media screen and (max-width: 768px) {
+  .heroimage {
+    background-position: right;
+  }
+}
