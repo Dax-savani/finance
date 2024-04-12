@@ -40,7 +40,7 @@ export const ServicesCard = () => {
           {cardData.map((value, index) => (
             <div
               key={index}
-              className="col-xl col-lg-4 mt-lg-4 col-sm-5 mt-4 col-10"
+              className="col-xl col-lg-4 mt-lg-4 col-sm-5 mt-4 col-10 mainCard"
             >
               <div
                 className="card d-flex justify-content-center align-items-center text-center p-2 pt-4 border-0 position-relative overflow-hidden"
