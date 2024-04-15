@@ -6,5 +6,5 @@
   transition: 0.3s;
 }
 .header-hover:hover{
-    color: var(--red) !important;
+    color: #D71920 !important;
 }

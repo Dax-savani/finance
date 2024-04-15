@@ -28,15 +28,15 @@ export const ServicesSlider = () => {
       dots: false,
       responsive: {
         0: {
-          items: 2,
+          items: 1,
         //   nav: false,
         },
         600: {
-          items: 3,
+          items: 2,
         //   nav: false,
         },
         800: {
-          items: 4,
+          items: 3,
         //   nav: false,
         },
         1000: {
@@ -70,12 +70,18 @@ export const ServicesSlider = () => {
         <div className="mt-4 serviceProvide d-flex justify-content-between py-4 position-relative my-5">
           <OwlCarousel className="owl-theme" {...options}>
             {ServiceProvideSection.map((item, index) => (
-              <div className="item text-center border-end px-4" key={index}>
-                <div className="serviceIcon text-center w-100">
+              <div
+                className="item text-center border-end d-flex justify-content-center align-items-center px-4"
+                key={index}
+              >
+                <div
+                  className="serviceIcon text-center d-flex justify-content-center align-items-center"
+                  style={{ height: "114px", width: "200px" }}
+                >
                   <img
                     src={item.img}
                     alt={item.img}
-                    className="object-fit-contain"
+                    // className="object-fit-contain"
                   />
                 </div>
               </div>

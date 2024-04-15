@@ -6,9 +6,10 @@
   color: white;
   transition: .3s;
   cursor: pointer;
+  margin: 5px 0;
 }
 .footer-data:hover{
-  color:var(--red);
+  color:#D71920;
 }
 .footer-icon{
   height: 34px;
@@ -28,5 +29,5 @@
 }
 .footer-bg{
   background-color: #3F3F3F;
-  padding: 30px 0;
+  padding-bottom: 20px;
 }

@@ -4,43 +4,58 @@ import footer2 from "../../assets/images/footer/footer-2.webp";
 import footer3 from "../../assets/images/footer/footer-3.webp";
 import logo from "../../assets/images/header/logo.webp";
 import "../../assets/style/footer.css";
+import { NavLink } from "react-router-dom";
 
 
 export const Footer = () => {
+  const navText = [
+    { lable: "HOME", to: "/" },
+    { lable: "SERVICES", to: "/services" },
+    { lable: "CORPORATE", to: "/about" },
+    { lable: "INVESTORS", to: "/" },
+    { lable: "POLICY", to: "" },
+    { lable: "DIGITAL INITIATIVES", to: "/" },
+    { lable: "CAREERS", to: "/" },
+    { lable: "CSR", to: "/" },
+    { lable: "MEDIA", to: "/" },
+    { lable: "NEWS", to: "/" },
+    { lable: "CONTACT", to: "/contact" },
+  ];
   return (
     <>
-      <div className="footer-bg mt-5">
+      <div className="footer-bg mt-5 p-sm-0 pt-3">
         <div className="container">
           <div className="d-flex justify-content-between flex-wrap">
-            <div className="my-auto">
-              <img src={logo} alt="logo" style={{width:"274px", height:"81px",objectFit:"contain"}} className="img-fluid" />
+            <div className="my-auto mx-sm-0 mx-auto">
+              <img
+                src={logo}
+                alt="logo"
+                style={{ width: "274px", height: "81px", objectFit: "contain" }}
+                className="img-fluid"
+              />
             </div>
 
             <div className="px-2 m-md-0 mt-md-5 mt-4 ">
-              <div className="fw-bold text-white mb-1">NAVIGATION</div>
+              <div className="fw-bold text-white mb-3">NAVIGATION</div>
               <div>
-                <div className="footer-data">HOME</div>
-                <div className="footer-data">SERVICES</div>
-                <div className="footer-data">CORPORATE</div>
-                <div className="footer-data">INVESTORS</div>
-                <div className="footer-data">POLICY</div>
-                <div className="footer-data">DIGITAL INITIATIVES</div>
-                <div className="footer-data">CAREERS</div>
-                <div className="footer-data">CSR</div>
-                <div className="footer-data">MEDIA</div>
-                <div className="footer-data">NEWS</div>
-                <div className="footer-data">CONTACT</div>
+                {navText.map((val, ind) => (
+                  <NavLink to={val.to} key={ind}>
+                    <div className="footer-data">{val.lable}</div>
+                  </NavLink>
+                ))}
               </div>
             </div>
 
             <div className="px-2 m-md-0 mt-md-5 mt-4">
-              <div className="fw-bold text-white mb-1">CONTACT</div>
-              <div>
-                <div className="footer-data">General Queries</div>
-                <div className="footer-data">NCD Queries</div>
-                <div className="footer-data">Branch Locator</div>
+              <div className="mb-5">
+                <div className="fw-bold text-white mb-3">CONTACT</div>
+                <div>
+                  <div className="footer-data">General Queries</div>
+                  <div className="footer-data">NCD Queries</div>
+                  <div className="footer-data">Branch Locator</div>
+                </div>
               </div>
-              <div className="fw-bold text-white mb-1 mt-3">MEDIA</div>
+              <div className="fw-bold text-white mb-3 mt-3">MEDIA</div>
               <div>
                 <div className="footer-data">Video Gallery</div>
                 <div className="footer-data">Image Gallery</div>
@@ -50,7 +65,9 @@ export const Footer = () => {
             </div>
 
             <div className="px-2 m-md-0 mt-md-5 mt-4">
-              <div className="fw-bold text-white mb-3 mb-md-2 ">FOLLOW US ON</div>
+              <div className="fw-bold text-white mb-3 mb-md-4 ">
+                FOLLOW US ON
+              </div>
               <div
                 className="d-flex justify-content-between"
                 style={{ width: "150px" }}
@@ -68,7 +85,7 @@ export const Footer = () => {
                   <i class="fa-brands fa-instagram"></i>
                 </div>
               </div>
-              <div className="footer-not mt-3 mt-md-2">
+              <div className="footer-not mt-3 mt-md-3">
                 DOWNLOAD iMUTHOOT <br /> MOBILE APP
                 <div className="d-flex justify-content-between mt-3 mt-md-2">
                   <div>
@@ -98,7 +115,9 @@ export const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="footer-not mt-3 mt-md-2">ONE APP MANY BENEFITS</div>
+                <div className="footer-not mt-3 mt-md-2">
+                  ONE APP MANY BENEFITS
+                </div>
               </div>
             </div>
           </div>

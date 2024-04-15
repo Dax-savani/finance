@@ -1,11 +1,19 @@
 import React from "react";
 
+
+
+
+
 export const ServicesHead = () => {
+
+
   return (
     <>
       <div className="container">
         <div>
-          <div className="text-center fs-2 fw-bold">GOLD LOAN</div>
+          <div className="text-center fs-2 fw-bold" >
+            GOLD LOAN
+          </div>
           <div className="overflow-x-auto text-nowrap">
             <ul className="d-flex justify-content-lg-center align-items-center py-4 ">
               <li className="header-data">Calculator</li>

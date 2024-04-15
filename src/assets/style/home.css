@@ -41,34 +41,6 @@
 .whyChooseUs {
   background: url("../images/home/whychooseUs/backWhyChoose.png");
 }
-/* ****schemes**** */
-.schemesMain {
-  background: url("../images/home/schemes/background.png");
-}
-.schemes {
-  font-size: 14px;
-}
-.schemesMain .schemesBox {
-  border: 2px solid #d7d7d7;
-  transition: 0.4s;
-}
-.schemesMain .schemesBox:hover {
-  border: 2px solid #d71920;
-}
-.schemesMain .schemesBox .schemeBoxTitle {
-  transition: 0.4s;
-}
-.schemesMain .schemesBox:hover .schemeBoxTitle {
-  color: #d71920;
-}
-.schemesMain .schemesBox .learnMore {
-  cursor: pointer;
-  display: inline-block;
-  transition: 0.4s;
-}
-.schemesMain .schemesBox .learnMore:hover {
-  text-decoration: underline;
-}
 /* ****scrollbar**** */
 .schemesMain ::-webkit-scrollbar {
   width: 6px;

@@ -118,3 +118,13 @@
 .newsBox:hover .newsBoxImg img {
   filter: unset;
 }
+
+.accordion-button:not(.collapsed) {
+    color: unset !important;
+    background-color: unset !important;
+    box-shadow: unset !important;
+    outline: 0 !important;
+}
+.accordion-button:focus {
+   box-shadow: none;
+}

@@ -170,7 +170,7 @@ export const ServicesGoldLoan = () => {
                     </p>
                   </div>
                   <div>
-                    <button className="btn ms-1 fw-medium download">
+                    <button className="btn ms-sm-1 mt-sm-0 mt-3 fw-medium download">
                       REFER NOW
                     </button>
                   </div>
@@ -193,7 +193,7 @@ export const ServicesGoldLoan = () => {
             <div className="col-lg-6 mt-lg-0 mt-4">
               <div className="border  rounded p-4 d-flex flex-sm-row flex-column-reverse h-100 justify-content-between">
                 <div className="d-flex flex-column justify-content-between">
-                  <div className="text-danger fw-bold">ASK AN EXPERT</div>
+                  <div className="text-danger fw-bold my-sm-0 mt-3 mb-2">ASK AN EXPERT</div>
                   <div>
                     <div>
                       <p className="fw-bold fs-14">

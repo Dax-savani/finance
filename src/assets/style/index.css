@@ -45,3 +45,18 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
   border: 1px solid #dadada;
 }
+/* *************schemes********* */
+
+.schemesBox {
+  border: 2px solid #d7d7d7;
+  transition: 0.4s;
+}
+.schemesBox:hover {
+  border: 2px solid #d71920;
+}
+ .schemesBox .schemeBoxTitle {
+  transition: 0.4s;
+}
+ .schemesBox:hover .schemeBoxTitle {
+  color: #d71920;
+}
