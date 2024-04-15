@@ -272,49 +272,25 @@ export const Services = () => {
   return (
     <>
       <div style={{ marginTop: "120px" }}>
-        <section>
           <ServicesHead />
-        </section>
-        <section id="servicesCard">
           <ServicesCard />
-        </section>
-        <section>
           <GoldCalc />
-        </section>
         <Schemes />
-        <section>
           <ServicesChargesTable />
-        </section>
-        <section>
           <ServicesTabs />
-        </section>
-        <section>
           <ServicesGoldLoan />
-        </section>
-        <section>
           <Faqs itemData={itemData} title={"FAQs"} data={data} />
-        </section>
 
-        <section>
           <Faqs
             itemData={itemData2}
             title={"Covid-19 Gold-Loan FAQs"}
             data={data1}
           />
-        </section>
 
-        <section>
           <ServicesSlider />
-        </section>
-        <section>
           <ServicesGrid />
-        </section>
-        <section>
           <ProvidedServices />
-        </section>
-        <section>
           <Subscribe />
-        </section>
       </div>
     </>
   );

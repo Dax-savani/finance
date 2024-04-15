@@ -12,6 +12,7 @@ function Faqs({ itemData, title, data }) {
               </div>
             </div>
             <div
+              data-aos="fade-up"
               className="accordion accordion-flush border border-1 rounded-3 p-md-5 p-sm-3  mx-sm-5 
               accordionBox"
               id="accordionFlushExample"

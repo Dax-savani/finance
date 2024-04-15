@@ -47,7 +47,7 @@ const counterProps = {
 const Counters = () => {
   return (
     <>
-      <div>
+      <div data-aos="fade-down">
         <div className="container py-5 mb-5">
           <Row
             className="py-5 text-center mx-1"

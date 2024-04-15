@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     Aos.init({
       once: false,
-      duration: 1800,
+      duration: 1200,
       easing: "ease",
     });
   }, []);

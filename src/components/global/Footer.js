@@ -2,9 +2,9 @@ import React from "react";
 import footer1 from "../../assets/images/footer/footer-1.webp";
 import footer2 from "../../assets/images/footer/footer-2.webp";
 import footer3 from "../../assets/images/footer/footer-3.webp";
-import logo from "../../assets/images/header/logo.webp";
+// import logo from "../../assets/images/header/logo.webp";
 import "../../assets/style/footer.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 
 export const Footer = () => {
@@ -21,6 +21,7 @@ export const Footer = () => {
     { lable: "NEWS", to: "/" },
     { lable: "CONTACT", to: "/contact" },
   ];
+  const navigate = useNavigate()
   return (
     <>
       <div className="footer-bg mt-5 p-sm-0 pt-3">
@@ -28,7 +29,7 @@ export const Footer = () => {
           <div className="d-flex justify-content-between flex-wrap">
             <div className="my-auto mx-sm-0 mx-auto">
               <img
-                src={logo}
+                onClick={() => navigate("/")}
                 alt="logo"
                 style={{ width: "274px", height: "81px", objectFit: "contain" }}
                 className="img-fluid"

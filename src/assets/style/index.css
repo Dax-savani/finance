@@ -60,3 +60,7 @@ p {
  .schemesBox:hover .schemeBoxTitle {
   color: #d71920;
 }
+.learnMore:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -53,7 +53,7 @@ const NewsMedia = () => {
         <div className="row">
           <div className="col-xl-8">
             <h3 className="fw-bold fs-33">NEWS & MEDIA</h3>
-            <div className="row">
+            <div className="row" data-aos="fade-right">
               <div className="col-md-4 mt-3">
                 <div className="newsBox position-relative overflow-hidden h-100">
                   <div className="newsBoxImg h-100">
@@ -136,7 +136,7 @@ const NewsMedia = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 csr mt-5 mt-xl-0">
+          <div className="col-xl-4 csr mt-5 mt-xl-0" data-aos="fade-left">
             <h3 className="fw-bold fs-33">CSR</h3>
             <div
               className="border p-md-3 p-2 csrBox"

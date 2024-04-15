@@ -86,6 +86,7 @@ const ServicesGoldLoanSchemes = () => {
               <div
                 className="col-xl-3 col-lg-4 col-sm-6  col-12 mt-5"
                 key={index}
+                data-aos="fade-up"
               >
                 <div className="schemesBox h-100 bg-white p-4 d-flex flex-column justify-content-between">
                   <div

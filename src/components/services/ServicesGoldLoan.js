@@ -34,7 +34,7 @@ export const ServicesGoldLoan = () => {
           <div className="mt-4 ">
             <div style={{ backgroundColor: "#F3F3F3" }} className="rounded">
               <div className="tab py-4 pb-5 px-3 bg-white">
-                <div>
+                <div data-aos="zoom-in">
                   <div className=" fs-2 fw-bold my-2 text-center">
                     GOLD LOAN CALCULATOR
                   </div>
@@ -45,9 +45,7 @@ export const ServicesGoldLoan = () => {
                           className=" outline-none py-1 w-100 px-0 fs-14 rounded-0 border-0 border-bottom border-dark-subtle fw-medium"
                           aria-label="Default select example"
                         >
-                          <option className="fw-medium" >
-                            Select Scheme
-                          </option>
+                          <option className="fw-medium">Select Scheme</option>
                           {selectData.map((value, index) => (
                             <option
                               key={index}
@@ -65,7 +63,7 @@ export const ServicesGoldLoan = () => {
                 <div>
                   <div className="row mt-5">
                     <div className="col-lg-5 col-12 border-end d-flex justify-content-center">
-                      <div>
+                      <div data-aos="fade-right">
                         <div>
                           <img
                             src={gold}
@@ -86,7 +84,7 @@ export const ServicesGoldLoan = () => {
                       </div>
                     </div>
                     <div className="col-lg-7 col-12 mt-lg-0 mt-4">
-                      <div>
+                      <div data-aos="fade-left">
                         <div className="px-lg-5">
                           <div>
                             <div>
@@ -159,7 +157,7 @@ export const ServicesGoldLoan = () => {
 
         <div>
           <div className="row" style={{ minHeight: "314px" }}>
-            <div className="col-lg-6 mt-lg-0 mt-4">
+            <div className="col-lg-6 mt-lg-0 mt-4" data-aos="zoom-in">
               <div className="border  rounded p-4 d-flex flex-sm-row flex-column-reverse h-100 justify-content-between">
                 <div className="d-flex flex-column justify-content-between">
                   <div className="text-danger fw-bold">REFER A FRIEND*</div>
@@ -190,10 +188,12 @@ export const ServicesGoldLoan = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 mt-lg-0 mt-4">
+            <div className="col-lg-6 mt-lg-0 mt-4" data-aos="zoom-in">
               <div className="border  rounded p-4 d-flex flex-sm-row flex-column-reverse h-100 justify-content-between">
                 <div className="d-flex flex-column justify-content-between">
-                  <div className="text-danger fw-bold my-sm-0 mt-3 mb-2">ASK AN EXPERT</div>
+                  <div className="text-danger fw-bold my-sm-0 mt-3 mb-2">
+                    ASK AN EXPERT
+                  </div>
                   <div>
                     <div>
                       <p className="fw-bold fs-14">

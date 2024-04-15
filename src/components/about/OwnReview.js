@@ -11,7 +11,12 @@ const OwnReview = () => {
         <Container className="px-5">
           <div className="p-5 border border-2" style={{ position: "relative" }}>
             <Row>
-              <Col xs={12} lg={3} className="pb-4 pb-lg-0">
+              <Col
+                xs={12}
+                lg={3}
+                className="pb-4 pb-lg-0"
+                data-aos="fade-right"
+              >
                 <div className="ownReview">
                   <img
                     src={founder0}
@@ -20,7 +25,7 @@ const OwnReview = () => {
                   />
                 </div>
               </Col>
-              <Col xs={12} lg={8}>
+              <Col xs={12} lg={8} data-aos="fade-left">
                 <figure className="px-lg-4">
                   <blockquote className="blockquote">
                     <p
