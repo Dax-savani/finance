@@ -15,7 +15,7 @@ const OwnReview = () => {
                 xs={12}
                 lg={3}
                 className="pb-4 pb-lg-0"
-                data-aos="fade-right"
+                data-aos="fade-down"
               >
                 <div className="ownReview">
                   <img
@@ -25,7 +25,7 @@ const OwnReview = () => {
                   />
                 </div>
               </Col>
-              <Col xs={12} lg={8} data-aos="fade-left">
+              <Col xs={12} lg={8} data-aos="fade-down">
                 <figure className="px-lg-4">
                   <blockquote className="blockquote">
                     <p

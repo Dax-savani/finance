@@ -25,7 +25,7 @@ const Award = () => {
           <Container>
             {/* <Row style={{ height: "230px" }}> */}
             <Row style={{ height: "auto" }}>
-              <Col xs={12} lg={6} xl={8} data-aos="fade-right">
+              <Col xs={12} lg={6} xl={8} data-aos="fade-down">
                 <Row>
                   <div
                     data-fs="right"
@@ -72,7 +72,7 @@ const Award = () => {
                   </div>
                 </Row>
               </Col>
-              <Col xs={12} lg={6} xl={4} data-aos="fade-left">
+              <Col xs={12} lg={6} xl={4} data-aos="fade-down">
                 <OwlCarousel className="owl-theme" {...awardProps}>
                   <div className="item">
                     <div

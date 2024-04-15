@@ -4,10 +4,10 @@ import footer2 from "../../assets/images/footer/footer-2.webp";
 import footer3 from "../../assets/images/footer/footer-3.webp";
 import logo from "../../assets/images/footer/Asset_3_2x-100-removebg-preview.png";
 import "../../assets/style/footer.css";
-import { Link, NavLink } from "react-router-dom";
+// import {  NavLink } from "react-router-dom";
 // import logo from "../../assets/images/header/logo.webp";
 import "../../assets/style/footer.css";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 
 export const Footer = () => {

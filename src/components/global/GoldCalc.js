@@ -49,7 +49,7 @@ const   GoldCalc = () => {
           <div className="row mt-3">
             <div className="col-xl-7">
               <div className="row align-items-center justify-content-center">
-                <div className="col-4" data-aos="fade-right">
+                <div className="col-4" data-aos="fade-down">
                   <img
                     src={sponserImg}
                     alt={sponserImg}
