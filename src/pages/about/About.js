@@ -13,7 +13,7 @@ import fg from "../../assets/images/about/heroAbout.jpg";
 const About = () => {
   return (
     <>
-      <div style={{ marginTop: "120px" }}>
+      <div style={{ marginTop: "88px" }}>
         <Hero
           line1="ABOUT US"
           line2="A"

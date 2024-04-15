@@ -10,7 +10,7 @@ const navText = [
   { lable: "SERVICES", to: "/services" },
   { lable: "CORPORATE", to: "/about" },
   { lable: "INVESTORS", to: "/" },
-  { lable: "POLICY", to: "" },
+  { lable: "POLICY", to: "policy" },
   { lable: "DIGITAL INITIATIVES", to: "/" },
   { lable: "CAREERS", to: "/" },
   { lable: "CSR", to: "/" },

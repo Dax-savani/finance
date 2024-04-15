@@ -1,65 +1,74 @@
 import React from "react";
-import schemesImg from "../../assets/images/services/schemes1.webp";
+import logo_1 from "../../assets/images/home/schemes/logo-1.png";
+import logo_2 from "../../assets/images/home/schemes/logo-2.png";
+import logo_3 from "../../assets/images/home/schemes/logo-3.png";
+import logo_4 from "../../assets/images/home/schemes/logo-4.png";
+import logo_5 from "../../assets/images/home/schemes/logo-5.png";
+import logo_6 from "../../assets/images/home/schemes/logo-6.png";
+import logo_7 from "../../assets/images/home/schemes/logo-7.png";
+import logo_8 from "../../assets/images/home/schemes/logo-8.png";
+import logo_9 from "../../assets/images/home/schemes/logo-9.png";
+import logo_10 from "../../assets/images/home/schemes/logo-10.png";
 
 const ServicesGoldLoanSchemes = () => {
   const SchemesBoxes = [
     {
-      img: schemesImg,
+      img: logo_1,
       boxTitle: "MUTHOOT ONE PERCENT LOAN",
       scheme1: "Small loans at low interest rates.",
       scheme2: "Loan Amount: ₹1,500 to ₹50,000",
     },
     {
-      img: schemesImg,
+      img: logo_2,
       boxTitle: "MUTHOOT ULTIMATE LOAN (MUL)",
       scheme1: "Maximum loan value and discounts on timely interest payments.",
       scheme2: "Loan Amount: Starting at ₹1,500",
     },
     {
-      img: schemesImg,
+      img: logo_3,
       boxTitle: "MUTHOOT DELIGHT LOAN",
       scheme1: "Loan Amount: ₹50,000 to ₹5 crores",
       scheme2: "Tenure: 12 months",
     },
     {
-      img: schemesImg,
+      img: logo_4,
       boxTitle: "MUTHOOT MUDRA LOAN",
       scheme1:
         "Special loan scheme for women that’s available at South India branches.",
       scheme2: "Loan Amount: ₹1,500 to ₹1 lakhs",
     },
     {
-      img: schemesImg,
+      img: logo_5,
       boxTitle: "MUTHOOT ADVANTAGE LOAN",
       scheme1: "Competitive per gram and interest rates.",
       scheme2: "Loan Amount: ₹50,000 to ₹5 Crores",
     },
     {
-      img: schemesImg,
+      img: logo_6,
       boxTitle: "MUTHOOT HIGH VALUE PLUS LOAN (MHP)",
       scheme1: "Loans curated for the business community.",
       scheme2: "Loan Amount: ₹1,90,000 to ₹5 crores",
     },
     {
-      img: schemesImg,
+      img: logo_7,
       boxTitle: "MUTHOOT HIGH VALUE LOAN (MHL)",
       scheme1: "Loans which are ideal for longer periods.",
       scheme2: "Loan starting from ₹50,000 and no maximum limit",
     },
     {
-      img: schemesImg,
+      img: logo_8,
       boxTitle: "MUTHOOT BIG BUSINESS LOANS",
       scheme1: "Low rates of interest with maximum LTV",
       scheme2: "Tenure: 12 months ",
     },
     {
-      img: schemesImg,
+      img: logo_9,
       boxTitle: "BEST VALUE SCHEME (BVS)  ",
       scheme1: "Offered at South India branches only",
       scheme2: "Loan Amount: ₹50,000 to ₹5 Crores",
     },
     {
-      img: schemesImg,
+      img: logo_10,
       boxTitle: "HIGH VALUE RETENTION (HVR)",
       scheme1: "Offered at South India branches only",
       scheme2: "Loan Amount: ₹10 Lakh to ₹5 crores",
@@ -131,3 +140,4 @@ const ServicesGoldLoanSchemes = () => {
 };
 
 export default ServicesGoldLoanSchemes;
+  

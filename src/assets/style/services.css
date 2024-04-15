@@ -1,64 +1,62 @@
 /* ************ SERVICES *********** */
 
-.header-data{
+.header-data {
   font-weight: 700;
   padding: 0 10px;
   color: black;
   border-right: 2px solid black;
   cursor: pointer;
 }
-#servicesCard .card ::before{
-      content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: #d71921;
-    width: 100%;
-    height: 2px;
-  }
-  .mainCard{
-  transition: .3s;
+#servicesCard .card ::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #d71921;
+  width: 100%;
+  height: 2px;
+}
+.mainCard {
+  transition: 0.3s;
   cursor: pointer;
 }
-.mainCard:hover{
+.mainCard:hover {
   transform: translateY(-10px);
 }
 .bg-table {
   --bs-bg-opacity: 1;
-  background-color:#D71921 !important;
+  background-color: #d71921 !important;
 }
-.download{
-        
+.download {
   outline: 3px solid white;
-        color: white;
-        /* font-weight: bold !important; */
-         border-radius: 30px;
-    background: #df3127;
-    background: -moz-linear-gradient(top, #df3127 0%, #ba2218 100%);
-    background: -webkit-linear-gradient(top, #df3127 0%, #ba2218 100%);
-    background: linear-gradient(to bottom, #df3127 0%, #ba2218 100%);
-        -webkit-transition: .8s;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3127',endColorstr='#ba2218',GradientType=0);
-
+  color: white;
+  /* font-weight: bold !important; */
+  border-radius: 30px;
+  background: #df3127;
+  background: -moz-linear-gradient(top, #df3127 0%, #ba2218 100%);
+  background: -webkit-linear-gradient(top, #df3127 0%, #ba2218 100%);
+  background: linear-gradient(to bottom, #df3127 0%, #ba2218 100%);
+  -webkit-transition: 0.8s;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3127',endColorstr='#ba2218',GradientType=0);
 }
-.download:hover{
-    background: white !important;
-    outline-color: #df3127;
-    color:  #df3127
-}
-
-.nav-pills li,.tab{
-        box-shadow: 0 0 16px rgba(0,0,0,.1);
-    }
-    
-    .nav-pills .nav-link.active{
-        width: 100%;
-    border-bottom: 2px solid #D71921;
-    color: #D71921 !important;
-    background-color: transparent;
-    border-radius: unset;
+.download:hover {
+  background: white !important;
+  outline-color: #df3127;
+  color: #df3127;
 }
 
+.nav-pills li,
+.tab {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills .nav-link.active {
+  width: 100%;
+  border-bottom: 2px solid #d71921;
+  color: #d71921 !important;
+  background-color: transparent;
+  border-radius: unset;
+}
 
 /* ************** slider  ********************/
 
@@ -67,7 +65,7 @@
   border-radius: 10px;
 }
 .serviceProvide .owl-theme .owl-nav {
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
 .serviceProvide .owl-theme .owl-nav .owl-prev {
   font-size: 32px;
@@ -91,8 +89,6 @@
   background-color: unset !important;
   color: unset !important;
 } */
-
-
 
 /* ******* services grid ********** */
 .newsBoxImg img {
@@ -120,11 +116,11 @@
 }
 
 .accordion-button:not(.collapsed) {
-    color: unset !important;
-    background-color: unset !important;
-    box-shadow: unset !important;
-    outline: 0 !important;
+  color: unset !important;
+  background-color: unset !important;
+  box-shadow: unset !important;
+  outline: 0 !important;
 }
 .accordion-button:focus {
-   box-shadow: none;
+  box-shadow: none;
 }
