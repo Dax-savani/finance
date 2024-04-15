@@ -48,7 +48,7 @@
   color: #1C0102;
 }
 .red {
-  color: #D71920;
+  color: #F46A25;
 }
 .white {
   color: #fff;
@@ -66,25 +66,25 @@
 /* *****gold calc**** */
 .otpGenerateBtn{
     padding: 8px 16px;
-    background: -webkit-linear-gradient(top, #df3127 0, #ba2218 100%);
+    background: -webkit-linear-gradient(top, #F46A25 0, #F46A25 100%);
     color: white;
     border: none;
     border-radius: 20px;
-    border: 2px solid #df3127;
+    border: 2px solid #F46A25;
     transition: 0.3s;
 }
 .otpGenerateBtn:hover{
     background: white;
-    color: #df3127;
+    color: #F46A25;
 }
 /* ==============subscribe component========== */
 
 .subscribe {
   width: 600px;
-  background-color: red;
+  background-color: #F46A25;
   color: pink;
   display: flex;
-  border: 1px solid #d71920;
+  border: 1px solid #F46A25;
   margin: 0 auto;
   border-radius: 5px;
   overflow: hidden;
@@ -109,7 +109,6 @@
 
 .subscribeBtn {
   border-radius: none;
-  background-color: #d71920;
   color: #fff;
 }
 
@@ -139,12 +138,11 @@
   background-position: center;
 }
 .background {
-  background-color: #d71920;
+  background-color: #F46A25;
   padding: 5px;
 }
 .fixBox {
-  width: 192px;
-  height: 28px;
+  display: inline-block;
 }
 .imagedetails {
   padding: 155px 0px;

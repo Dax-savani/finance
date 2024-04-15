@@ -74,7 +74,7 @@ const Award = () => {
                   <div className="item">
                     <div
                       className="p-1 rounded-1"
-                      style={{ backgroundColor: "#d71920" }}
+                      style={{ backgroundColor: "#F46A25" }}
                     >
                       <img src={sliderImg1} alt="slider" />
                     </div>

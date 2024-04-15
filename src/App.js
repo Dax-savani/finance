@@ -8,6 +8,7 @@ import Contact from "./pages/Contact/Contact";
 import { Route, Routes } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import NcdQueries from "./pages/NCDQueries/NcdQueries";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/ncd-Queries" element={<NcdQueries />} />
       </Routes>
       <Footer />
     </>

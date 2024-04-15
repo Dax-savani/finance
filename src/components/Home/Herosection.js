@@ -18,16 +18,18 @@ const Herosection = () => {
     margin: 20,
     nav: false,
     autoplay: true,
-    autoplaytimeout: 3000,
     dots: true,
     responsive: {
       0: {
+        stagePadding: 10,
         items: 1,
       },
       600: {
+        stagePadding: 40,
         items: 1,
       },
       1000: {
+        stagePadding: 80,
         items: 1,
       },
     },
@@ -49,7 +51,7 @@ const Herosection = () => {
         <OwlCarousel className="owl-theme" {...options}>
           {sliderArray.map((data, index) => (
             <div className="item sliderImg" key={index}>
-              <img src={data} alt={data} />
+              <img src={data} alt={data} className="img-fluid"/>
             </div>
           ))}
         </OwlCarousel>

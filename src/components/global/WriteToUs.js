@@ -3,7 +3,7 @@ import React from "react";
 import * as Yup from "yup";
 import { Form } from "react-bootstrap";
 
-function FormSection() {
+const WriteToUs = () => {
   const validationSchema = Yup.object({
     firstName: Yup.string().required("First Name is required"),
     lastName: Yup.string().required("Last Name is required"),
@@ -48,14 +48,14 @@ function FormSection() {
           <div className="formSection col-md-9 col-12">
             <div className="FormBox">
               <div className="formHeading text-center">
-                <h1 className="fs-33 fw-semibold pb-4 mb-1">WRITE TO US</h1>
+                <h1 className="fs-33 fw-bold pb-4 mb-1">WRITE TO US</h1>
               </div>
               <div className="mainform">
                 <Form
                   onSubmit={Formik.handleSubmit}
                   onReset={Formik.handleReset}
                 >
-                  <div className="row">
+                  <div className="row fw-medium">
                     <div className="col-md-6 col-lg-3 col-sm-12 form-group mb-3 ">
                       <div>
                         <input
@@ -291,14 +291,17 @@ function FormSection() {
                     </div>
                     <div className="d-flex align-item-start">
                       <input type="checkbox" className="mx-2 my-1 checkbox" />
-                      <label className="fs-17 black labeldata">
+                      <label className="fs-17 black labeldata ">
                         I hereby authorise and allow representatives of Muthoot
                         Finance Ltd to Call/SMS/Contact me for marketing and
                         promotional purposes.
                       </label>
                     </div>
                     <div className="text-center my-3">
-                      <button type="submit" className="btn button fw-bold">
+                      <button
+                        type="submit"
+                        className="btn button fw-bold otpGenerateBtn"
+                      >
                         SUBMIT
                       </button>
                     </div>
@@ -311,6 +314,6 @@ function FormSection() {
       </div>
     </section>
   );
-}
+};
 
-export default FormSection;
+export default WriteToUs;

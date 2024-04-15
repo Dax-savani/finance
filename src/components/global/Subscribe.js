@@ -7,7 +7,7 @@ const Subscribe = () => {
         <div className="text-center">
           <h3
             className="mb-4"
-            style={{ fontWeight: "600", letterSpacing: "-1px" }}
+            style={{ fontWeight: "700", letterSpacing: "-1px" }}
           >
             SUBSCRIBE TO OUR NEWSLETTER
           </h3>

@@ -1,8 +1,8 @@
 .sliderImg {
-  max-height: 370px;
+  max-height: 600px;
 }
 .sliderImg img {
-  border-radius: 8px;
+  border-radius: 10px;
 }
 /* *****service we provide******** */
 .serviceIcon {

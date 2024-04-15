@@ -38,6 +38,9 @@ p {
   margin: 0;
   padding: 0;
 }
+.text-danger{
+  color: #F46A25 !important;
+}
 .accordionhead {
   padding: 20px 40px 20px 0px;
 }
@@ -52,11 +55,11 @@ p {
   transition: 0.4s;
 }
 .schemesBox:hover {
-  border: 2px solid #d71920;
+  border: 2px solid #F46A25;
 }
  .schemesBox .schemeBoxTitle {
   transition: 0.4s;
 }
  .schemesBox:hover .schemeBoxTitle {
-  color: #d71920;
+  color: #F46A25;
 }

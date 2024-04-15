@@ -23,12 +23,22 @@ const Hero = ({ line1, line2, line3, line4, line5, bGSrc }) => {
               </div>
             </div>
           </div>
-          <div className="responsiveDetails">
+          {/* <div className="responsiveDetails">
             <div className="imagebox p-3 d-block d-md-none">
               <div className="fixBox">
-                <h6 className=" fs-16 fw-bold red m-0">{line4}</h6>
+                <h6 className=" fs-16 fw-bold red m-0">{line2}</h6>
               </div>
-              <h2 className="fw-bold lightBlack fs-22 m-0">{line5}</h2>
+              <h2 className="fw-bold lightBlack fs-22 m-0">{line3}</h2>
+            </div>
+          </div> */}
+          <div className="responsiveDetails">
+            <div className="imagebox p-3 d-block d-md-none">
+              <div className="fixBox ">
+                <h6 className=" fs-16 fw-bold red m-0">{ line1}</h6>
+              </div>
+              <h2 className="fw-bold lightBlack fs-22 m-0">
+                {line2}{" "}{line3}
+              </h2>
             </div>
           </div>
         </div>
