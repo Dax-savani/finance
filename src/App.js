@@ -9,12 +9,13 @@ import { Route, Routes } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import NcdQueries from "./pages/NCDQueries/NcdQueries";
+import Policy from "./pages/policy/Policy";
 
 function App() {
   useEffect(() => {
     Aos.init({
       once: false,
-      duration: 1800,
+      duration: 1200,
       easing: "ease",
     });
   }, []);
@@ -28,6 +29,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ncd-Queries" element={<NcdQueries />} />
+        <Route path="/policy" element={<Policy />} />
       </Routes>
       <Footer />
     </>

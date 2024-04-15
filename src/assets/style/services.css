@@ -1,6 +1,6 @@
 /* ************ SERVICES *********** */
 
-.header-data{
+.header-data {
   font-weight: 700;
   padding: 0 10px;
   color: black;
@@ -20,15 +20,14 @@
   transition: .3s;
   cursor: pointer;
 }
-.mainCard:hover{
+.mainCard:hover {
   transform: translateY(-10px);
 }
 .bg-table {
   --bs-bg-opacity: 1;
   background-color:#F46A25 !important;
 }
-.download{
-        
+.download {
   outline: 3px solid white;
         color: white;
         /* font-weight: bold !important; */
@@ -59,6 +58,13 @@
     border-radius: unset;
 }
 
+.nav-pills .nav-link.active {
+  width: 100%;
+  border-bottom: 2px solid #d71921;
+  color: #d71921 !important;
+  background-color: transparent;
+  border-radius: unset;
+}
 
 /* ************** slider  ********************/
 
@@ -67,7 +73,7 @@
   border-radius: 10px;
 }
 .serviceProvide .owl-theme .owl-nav {
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
 .serviceProvide .owl-theme .owl-nav .owl-prev {
   font-size: 32px;
@@ -91,8 +97,6 @@
   background-color: unset !important;
   color: unset !important;
 } */
-
-
 
 /* ******* services grid ********** */
 .newsBoxImg img {
@@ -120,11 +124,11 @@
 }
 
 .accordion-button:not(.collapsed) {
-    color: unset !important;
-    background-color: unset !important;
-    box-shadow: unset !important;
-    outline: 0 !important;
+  color: unset !important;
+  background-color: unset !important;
+  box-shadow: unset !important;
+  outline: 0 !important;
 }
 .accordion-button:focus {
-   box-shadow: none;
+  box-shadow: none;
 }

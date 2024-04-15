@@ -71,6 +71,7 @@ const ProvidedServices = () => {
                   {serviceInfo.map((single, index) => (
                     <div className="item" key={index}>
                       <Col
+                        data-aos="fade-down"
                         className="rounded-4 py-4 px-4 bg-white"
                         key={index}
                         style={{ height: "230px" }}

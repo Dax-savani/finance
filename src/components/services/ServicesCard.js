@@ -35,7 +35,7 @@ export const ServicesCard = () => {
   ];
   return (
     <>
-      <div data-aos="fade-down">
+      <div data-aos="fade-down" id="servicesCard">
         <div className="container" id="container">
           <div className="justify-content-lg-between justify-content-sm-around justify-content-center align-items-center fs-14 row">
             {cardData.map((value, index) => (

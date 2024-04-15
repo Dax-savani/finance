@@ -1,34 +1,39 @@
 import React from "react";
-import extraCharges from "../../assets/images/home/whychooseUs/Rupees.png";
+import logo_1 from "../../assets/images/home/whychooseUs/logo-1.png";
+import logo_2 from "../../assets/images/home/whychooseUs/logo-2.png";
+import logo_3 from "../../assets/images/home/whychooseUs/logo-3.png";
+import logo_4 from "../../assets/images/home/whychooseUs/logo-4.png";
+import logo_5 from "../../assets/images/home/whychooseUs/logo-5.png";
+import logo_6 from "../../assets/images/home/whychooseUs/logo-6.png";
 const WhyChooseUS = () => {
   const whyChooseUsboxes = [
     {
-      img: extraCharges,
+      img: logo_1,
       title: "No extra processing charges",
       text: "We do not charge any extra hidden processing fees.",
     },
     {
-      img: extraCharges,
+      img: logo_2,
       title: "Maximum loan amount per gram",
       text: "The gold loan rate per gram offered by Manappuram is the highest in this segment.",
     },
     {
-      img: extraCharges,
+      img: logo_3,
       title: "Day wise interest",
       text: "We let users know of the day-wise interest rates",
     },
     {
-      img: extraCharges,
+      img: logo_4,
       title: "Wide range of schemes",
       text: "Manappuram offers a wide range of schemes to cater to the varied needs and financial goals of different users",
     },
     {
-      img: extraCharges,
+      img: logo_5,
       title: "Less documentation for loans",
       text: "A straightforward process doesn’t require any in-depth knowledge. The debtor has to carry the gold to be mortgaged and identity/ address proof",
     },
     {
-      img: extraCharges,
+      img: logo_6,
       title: "Instant loan at doorstep. No bureau check",
       text: "Our service executives will directly disburse the loan at your doorstep, following the latest public health protocol.",
     },

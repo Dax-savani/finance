@@ -5,6 +5,10 @@ import footer3 from "../../assets/images/footer/footer-3.webp";
 import logo from "../../assets/images/footer/Asset_3_2x-100-removebg-preview.png";
 import "../../assets/style/footer.css";
 import { Link, NavLink } from "react-router-dom";
+// import logo from "../../assets/images/header/logo.webp";
+import "../../assets/style/footer.css";
+import { NavLink, useNavigate } from "react-router-dom";
+
 
 export const Footer = () => {
   const navText = [
@@ -14,6 +18,7 @@ export const Footer = () => {
     { lable: "POLICY", to: "/policy" },
     { lable: "CONTACT", to: "/contact" },
   ];
+  const navigate = useNavigate()
   return (
     <>
       <div className="footer-bg mt-5  py-5">
@@ -21,7 +26,7 @@ export const Footer = () => {
           <div className="d-flex justify-content-between flex-wrap">
             <div className="my-auto mx-sm-0 mx-auto">
               <img
-                src={logo}
+                onClick={() => navigate("/")}
                 alt="logo"
                 style={{height: "200px" }}
                 className="img-fluid"

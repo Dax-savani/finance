@@ -12,7 +12,7 @@ import WriteToUs from "../../components/global/WriteToUs";
 function Contact() {
   return (
     <>
-      <div style={{ marginTop: "120px" }}>
+      <div style={{ marginTop: "88px" }}>
         <Hero
           bGSrc={contactBackImg}
           line1={"GENERAL QUERIES"}
