@@ -67,7 +67,7 @@ function Location() {
           <div className="branchloction py-5">
             <div className="row justify-content-center">
               {LocationDeatsils.map((e, index) => (
-                <div className="col-md-5 col-sm-10 col-xs-10 my-3 " key={index}>
+                <div className="col-md-5 col-sm-10 col-xs-10 my-3 " data-aos="fade-down" key={index}>
                   <div className="branchbox border rounded-2 h-100">
                     <div className="head rounded-2">
                       <h3 className="m-0 fs-18 fw-bold white">

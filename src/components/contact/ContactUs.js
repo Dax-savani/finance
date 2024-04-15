@@ -14,8 +14,8 @@ function ContactUs() {
                       <h4 className="fs-33 black m-0">Connect with us</h4>
                     </li>
                     <li className="col-xl-8 col-12 py-3 text-center">
-                      <ul className="d-flex justify-content-center">    
-                        <li>
+                      <ul className="d-flex justify-content-center">
+                        <li data-aos="fade-down" data-aos-duration="800">
                           <div className="socialBox d-flex justify-content-center align-items-center">
                             <a href="#">
                               <span>
@@ -24,7 +24,7 @@ function ContactUs() {
                             </a>
                           </div>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="1000">
                           <div className="socialBox d-flex justify-content-center align-items-center">
                             <a href="#">
                               <span>
@@ -33,7 +33,7 @@ function ContactUs() {
                             </a>
                           </div>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="1200">
                           <div className="socialBox d-flex justify-content-center align-items-center">
                             <a href="#">
                               <span>
@@ -42,7 +42,7 @@ function ContactUs() {
                             </a>
                           </div>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="1400">
                           <div className="socialBox d-flex justify-content-center align-items-center">
                             <a href="#">
                               <span>
@@ -51,7 +51,7 @@ function ContactUs() {
                             </a>
                           </div>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="1600">
                           <div className="socialBox d-flex justify-content-center align-items-center">
                             <a href="#">
                               <span>
@@ -60,7 +60,7 @@ function ContactUs() {
                             </a>
                           </div>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="1800">
                           <div className="socialBox d-flex justify-content-center align-items-center">
                             <a href="#">
                               <span>
@@ -69,7 +69,7 @@ function ContactUs() {
                             </a>
                           </div>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="2000">
                           <div className="socialBox d-flex justify-content-center align-items-center">
                             <a href="#">
                               <span>

@@ -5,6 +5,12 @@
   font-weight: 500;
   transition: 0.3s;
 }
-.header-hover:hover{
-    color: #D71920 !important;
+.bg-orange{
+  background-color: #FA7B31;
+}
+.text-orange{
+  color: #FA7B31;
+}
+.navbar-toggler:focus {
+    box-shadow:unset;
 }

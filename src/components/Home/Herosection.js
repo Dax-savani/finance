@@ -49,7 +49,7 @@ const Herosection = () => {
         <OwlCarousel className="owl-theme" {...options}>
           {sliderArray.map((data, index) => (
             <div className="item sliderImg" key={index}>
-              <img src={data} alt={data} />
+              <img className="rounded" src={data} alt={data} />
             </div>
           ))}
         </OwlCarousel>

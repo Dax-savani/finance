@@ -3,7 +3,7 @@ import React from "react";
 export const ServicesTabs = () => {
   return (
     <>
-      <div className="container ">
+      <div className="container " data-aos="fade-up">
         <div className="d-flex justify-content-center align-items-center ">
           <div className="col-12">
             <ul className="nav nav-pills   mb-3" id="pills-tab" role="tablist">

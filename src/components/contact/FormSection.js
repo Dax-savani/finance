@@ -50,7 +50,7 @@ function FormSection() {
               <div className="formHeading text-center">
                 <h1 className="fs-33 fw-semibold pb-4 mb-1">WRITE TO US</h1>
               </div>
-              <div className="mainform">
+              <div className="mainform" data-aos="fade-down">
                 <Form
                   onSubmit={Formik.handleSubmit}
                   onReset={Formik.handleReset}

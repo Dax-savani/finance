@@ -25,9 +25,12 @@ const Award = () => {
           <Container>
             {/* <Row style={{ height: "230px" }}> */}
             <Row style={{ height: "auto" }}>
-              <Col xs={12} lg={6} xl={8}>
+              <Col xs={12} lg={6} xl={8} data-aos="fade-right">
                 <Row>
-                  <div className="d-flex position-static awardMain pb-4 pb-xl-0">
+                  <div
+                    data-fs="right"
+                    className="d-flex position-static awardMain pb-4 pb-xl-0"
+                  >
                     <div
                       style={{ width: "300px" }}
                       className="d-none d-xl-block"
@@ -69,7 +72,7 @@ const Award = () => {
                   </div>
                 </Row>
               </Col>
-              <Col xs={12} lg={6} xl={4}>
+              <Col xs={12} lg={6} xl={4} data-aos="fade-left">
                 <OwlCarousel className="owl-theme" {...awardProps}>
                   <div className="item">
                     <div
