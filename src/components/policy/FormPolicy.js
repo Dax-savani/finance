@@ -115,7 +115,10 @@ function FormPolicy() {
                         </div>
                       </div>
                       <div className="text-center my-3">
-                        <button type="submit" className="btn button fw-bold">
+                        <button
+                          type="submit"
+                          className="btn otpGenerateBtn fw-bold"
+                        >
                           SUBMIT
                         </button>
                       </div>

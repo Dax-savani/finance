@@ -68,14 +68,14 @@
     padding: 8px 16px;
     background: -webkit-linear-gradient(top, #F46A25 0, #F46A25 100%);
     color: white;
-    border: none;
     border-radius: 20px;
     border: 2px solid #F46A25;
     transition: 0.3s;
 }
 .otpGenerateBtn:hover{
-    background: white;
-    color: #F46A25;
+  background: white;
+  color: #F46A25;
+  border: 2px solid #F46A25;
 }
 /* ==============subscribe component========== */
 

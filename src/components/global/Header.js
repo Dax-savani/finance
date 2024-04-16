@@ -9,7 +9,7 @@ const navText = [
   { lable: "HOME", to: "/" },
   { lable: "ABOUT", to: "/about" },
   { lable: "GOLD LOAN", to: "/services" },
-  { lable: "POLICY", to: "" },
+  { lable: "POLICY", to: "/policy" },
   { lable: "CONTACT", to: "/contact" },
 ];
  const navigate = useNavigate()
@@ -59,7 +59,7 @@ const navText = [
                     src={logo}
                     alt="logo"
                     className="img-fluid"
-                    style={{ maxWidth: "100px",maxHeight: "100px" }}
+                    style={{ maxWidth: "90px",maxHeight: "90px" }}
                   />
                 </a>
               </div>
@@ -95,7 +95,7 @@ const navText = [
           id="mobileMenu"
           className={`collapse navbar-collapse bg-white d-xl-none ${toggle}`}
         >
-          <ul style={{ height: "509px", overflow: "auto" }}>
+          <ul>
             {navText.map((val, ind) => (
               <NavLink to={val.to} key={ind}>
                 <li
