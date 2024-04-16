@@ -9,7 +9,7 @@ const navText = [
   { lable: "HOME", to: "/" },
   { lable: "ABOUT", to: "/about" },
   { lable: "GOLD LOAN", to: "/services" },
-  { lable: "POLICY", to: "" },
+  { lable: "POLICY", to: "/policy" },
   { lable: "CONTACT", to: "/contact" },
 ];
  const navigate = useNavigate()

@@ -8,7 +8,7 @@ function Faqs({ itemData, title, data }) {
           <div className="container">
             <div className="FaqsHeading">
               <div className="formHeading text-center">
-                <h1 className="fs-33 fw-semibold pb-4 mb-1">{title}</h1>
+                <h1 className="fs-33 fw-semibold pb-4 pt-5 pt-sm-5 mb-1">{title}</h1>
               </div>
             </div>
             <div
