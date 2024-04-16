@@ -17,7 +17,7 @@ const Award = () => {
 
   return (
     <>
-      <div className="py-5 mb-5" style={{ backgroundColor: "#F3F3F3" }}>
+      <div className="py-5 mb-5 px-2" style={{ backgroundColor: "#F3F3F3" }}>
         <h3 className="text-center mb-4" style={{ fontWeight: "600" }}>
           AWARDS & RECOGNITION
         </h3>

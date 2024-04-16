@@ -8,8 +8,8 @@ const OwnReview = () => {
   return (
     <>
       <section>
-        <Container className="px-5">
-          <div className="p-5 border border-2" style={{ position: "relative" }}>
+        <Container className="px-sm-5 px-3">
+          <div className="p-sm-5 p-3 border border-2" style={{ position: "relative" }}>
             <Row>
               <Col
                 xs={12}

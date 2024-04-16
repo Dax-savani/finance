@@ -59,7 +59,7 @@ const navText = [
                     src={logo}
                     alt="logo"
                     className="img-fluid"
-                    style={{ maxWidth: "100px", objectFit: "contain" }}
+                    style={{ maxWidth: "100px",maxHeight: "100px" }}
                   />
                 </a>
               </div>

@@ -63,7 +63,7 @@ export const ServicesGoldLoan = () => {
                 <div>
                   <div className="row mt-5">
                     <div className="col-lg-5 col-12 border-end d-flex justify-content-center">
-                      <div data-aos="fade-right">
+                      <div data-aos="fade-down">
                         <div>
                           <img
                             src={gold}
@@ -84,7 +84,7 @@ export const ServicesGoldLoan = () => {
                       </div>
                     </div>
                     <div className="col-lg-7 col-12 mt-lg-0 mt-4">
-                      <div data-aos="fade-left">
+                      <div data-aos="fade-down">
                         <div className="px-lg-5">
                           <div>
                             <div>

@@ -10,7 +10,7 @@ export const ServicesGrid = () => {
       <div className="container">
         <h3 className="fw-bold fs-33">BLOG</h3>
         <div className="row h-100  ">
-          <div className="col-lg-8 col-12" data-aos="fade-right">
+          <div className="col-lg-8 col-12" data-aos="fade-down">
             <div className="row">
               <div className="col-md-6 mt-3">
                 <div className="newsBox position-relative overflow-hidden h-100">
@@ -100,7 +100,7 @@ export const ServicesGrid = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-12 mt-lg-0 mt-3" data-aos="fade-left">
+          <div className="col-lg-4 col-12 mt-lg-0 mt-3" data-aos="fade-down">
             <div className="row h-100">
               <div className="col-lg-12 col-6">
                 <div className="newsBox position-relative overflow-hidden h-100">

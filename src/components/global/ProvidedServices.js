@@ -55,7 +55,7 @@ const ProvidedServices = () => {
 
   return (
     <>
-      <div className="mb-5 mx-5">
+      <div className="mb-5 mx-2 mx-sm-5">
         <div className="py-5 px-3" style={{ backgroundColor: "#F3F3F3" }}>
           <h3 className="text-center pb-3" style={{ fontWeight: "600" }}>
             Services We Provide
